@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: antiquewhite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    color: blueviolet;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.card-title{
+    text-align: center;
+}
+.card-text{
+    text-align: center;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.row{
+    display: flex;
+    flex-direction:row;
+    padding: 10px;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.caracteristica{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.imgcaracter{
+    width: 300px;
+    padding: 20px;
+}
+.textoespecificacion{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.txtesp{
+    background-color: rgb(255, 100, 177);
+    padding: 1rem;
+    color: aliceblue;
+    padding: 5px;
+    border-style: solid;
+    border-radius: 8px;
+}
+.imgcard{
+    margin-top: 20px;
+}
+.carousel{
+    width: 400px;
+    margin: 2rem;
+    border-style: solid;
+    color: blueviolet;
+    align-items: center;
+}
+.footer{
+    background-color: rgb(105, 46, 160); 
+    height: 100px; 
+}
+footer ul {
+    font-size: 20px;
+    list-style: none;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+footer ul a{
+    color: white;
+    
+}
+.textfooter{
+    display: flex;
+    flex-direction: space-around;
+    margin-top: 80px;
+    
+}
+.carouselslide{
+    margin-top: 100px;
+}
+
+
