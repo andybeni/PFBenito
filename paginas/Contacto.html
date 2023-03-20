@@ -26,10 +26,10 @@
                             Productos
                           </a>
                           <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="./paginas/Piñatas.html">Piñatas</a></li>
-                            <li><a class="dropdown-item" href="./paginas/Botellas.html">Botellas</a></li>
-                            <li><a class="dropdown-item" href="./paginas/Vasos.html">Vasos decorados</a></li>
-                            <li><a class="dropdown-item" href="./paginas/Libretas.html">Libretas</a></li>
+                            <li><a class="dropdown-item" href="../paginas/Piñatas.html">Piñatas</a></li>
+                            <li><a class="dropdown-item" href="../paginas/Botellas.html">Botellas</a></li>
+                            <li><a class="dropdown-item" href="../paginas/Vasos.html">Vasos decorados</a></li>
+                            <li><a class="dropdown-item" href="../paginas/Libretas.html">Libretas</a></li>
                           </ul>
                       </li>  
                     <li class="nav-item">
@@ -39,7 +39,7 @@
                       <a class="nav-link" href="#">Preguntas frequentes</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Contacto</a>
+                      <a class="nav-link" href="./Contacto.html">Contacto</a>
                     </li>
                   </ul>
                 </div>
@@ -47,20 +47,57 @@
             </nav>
       </header>
     </div> 
+  </div>
 
-        
-       <footer class="footer">
-
-            <h4>¿Quiénes somos?</h4>
-            <h4>Preguntas frecuentes</h4>
-            <a href="https://www.facebook.com/pinatasnovandi/" target="blank"><img src="../img/logos/facebook.png" alt="facebook" class="redes"></a>
-            <a href="https://www.instagram.com/novandipinatas/?hl=es-la " target="blank"><img src="../img/logos/instagram.png" alt="instagram" class="redes"></a>      
-            <a href="www.whatsapp.com" target="blank"><img src="../img/whats.png" alt="whats" class="redes" ></a>
+  <div class="container">
+    <div class="row">
+      <form class="formulario" action="">
         <div>
-            <h6>Derechos reservados novandi 2023</h6>
+          <label for="Name">Nombre</label>
+          <input type="text" name="name">
         </div>
-       </footer>
+        <div>
+          <label for="Surname">Apellido</label>
+          <input type="text" name="name">
+        </div>
+        <div>
+          <label for="Phone">Teléfono</label>
+          <input type="text" name="phone">
+        </div> 
+        <div>
+          <label for=”pedido”>Selecciona tu área de interés</label>
+          <select name=”pedido” id=””>
+            <option value="pinatas">Piñatas</option>
+            <option value="vasos">Vasos decorados</option>
+            <option value="botellas">Botellas decaradas</option>
+            <option value="libretas">Libretas</option>
+          </select>
+        </div>
+        <div>
+          <label for="comentario">Danos a conocer tu idea</label>
+          <textarea name="idea" id="" cols="30" rows="10"></textarea>
+        </div>
+      </form>
+
     </div>
+
+  </div>
+        
+  <footer class="container">
+    <div class="row">
+      <div class="footer">
+        <a class="quien" href="#">¿Quiénes somos?</a>
+        <a class="pregunta" href="#">Preguntas frecuentes</a>   
+        <a href="https://www.facebook.com/pinatasnovandi/" target="blank"><img src="../img/logos/facebook.png" alt="facebook" class="redes col-lg-2 col-md- col-sm-12"></a>
+        <a href="https://www.instagram.com/novandipinatas/?hl=es-la " target="blank"><img src="../img/logos/instagram.png" alt="instagram" class="redes col-lg-2 col-md- col-sm-12"></a>      
+        <a href="www.whatsapp.com" target="blank"><img src="../img/whats.png" alt="whats" class="redes col-lg-2 col-md- col-sm-12"></a>
+        <div>
+          <h6>Derechos reservados novandi 2023</h6>
+        </div> 
+      </div> 
+    </div>     
+  </footer>
+    
         
 
 
