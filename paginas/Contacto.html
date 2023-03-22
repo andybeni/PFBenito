@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="../estilo/estilo.css">
+    <link rel="stylesheet" href="../css/estilo.css">
     <title>Novandi Piñatas</title>
     <link rel="icon" href="../img/logos/logo pan .png">
 </head>
@@ -33,10 +33,10 @@
                           </ul>
                       </li>  
                     <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
+                      <a class="nav-link active" aria-current="page" href="./Nosotros.html">Nosotros</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Preguntas frequentes</a>
+                      <a class="nav-link" href="./Preguntas.html">Preguntas frequentes</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="./Contacto.html">Contacto</a>
@@ -48,49 +48,50 @@
       </header>
     </div> 
   </div>
-
+<main class="maincontacto">
   <div class="container">
     <div class="row">
-      <form class="formulario" action="">
-        <div>
-          <label for="Name">Nombre</label>
-          <input type="text" name="name">
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Nombre</label>
+          <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
         </div>
-        <div>
-          <label for="Surname">Apellido</label>
-          <input type="text" name="name">
+        <div class="mb-3">
+          <label for="surname" class="form-label">Apellido</label>
+          <input type="surname" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
         </div>
-        <div>
-          <label for="Phone">Teléfono</label>
-          <input type="text" name="phone">
-        </div> 
-        <div>
-          <label for=”pedido”>Selecciona tu área de interés</label>
-          <select name=”pedido” id=””>
-            <option value="pinatas">Piñatas</option>
-            <option value="vasos">Vasos decorados</option>
-            <option value="botellas">Botellas decaradas</option>
-            <option value="libretas">Libretas</option>
+        <div class="mb-3">
+          <label for="phone" class="form-label">Teléfono</label>
+          <input type="phone" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="producto" class="form-label">¿Qué producto te interesa?</label>
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Piñatas</option>
+            <option value="1">Botellas decoradas</option>
+            <option value="2">Vasos decorados</option>
+            <option value="3">Libretas</option>
+            <
           </select>
         </div>
-        <div>
-          <label for="comentario">Danos a conocer tu idea</label>
-          <textarea name="idea" id="" cols="30" rows="10"></textarea>
+        <div class="mb-3">
+          <label for="idea" class="form-label">Cuentanos tu idea</label>
+          <input type="idea" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
         </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
       </form>
-
     </div>
-
   </div>
+</main>  
         
-  <footer class="container">
+  <footer class="container ">
     <div class="row">
       <div class="footer">
-        <a class="quien" href="#">¿Quiénes somos?</a>
-        <a class="pregunta" href="#">Preguntas frecuentes</a>   
+        <a class="pregunta" href="#">¿Quiénes somos?</a>
+        <a class="pregunta" href="./Preguntas.html">Preguntas frecuentes</a>   
         <a href="https://www.facebook.com/pinatasnovandi/" target="blank"><img src="../img/logos/facebook.png" alt="facebook" class="redes col-lg-2 col-md- col-sm-12"></a>
         <a href="https://www.instagram.com/novandipinatas/?hl=es-la " target="blank"><img src="../img/logos/instagram.png" alt="instagram" class="redes col-lg-2 col-md- col-sm-12"></a>      
-        <a href="www.whatsapp.com" target="blank"><img src="../img/whats.png" alt="whats" class="redes col-lg-2 col-md- col-sm-12"></a>
+        <a href="www.whatsapp.com" target="blank"><img src="../img/logos/whats.png" alt="whats" class="redes col-lg-2 col-md- col-sm-12"></a>
         <div>
           <h6>Derechos reservados novandi 2023</h6>
         </div> 

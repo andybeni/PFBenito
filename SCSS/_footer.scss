@@ -1,0 +1,19 @@
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: $morado;
+    color: $hueso;
+    width: 100%;
+    .pregunta{
+        color: $hueso;
+    } 
+    .pregunta:hover{
+        color: $rosa;
+    }
+    .redes{
+        width: 50px;
+        margin: 20px;   
+    }    
+    }
+ 

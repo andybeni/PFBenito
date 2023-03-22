@@ -1,4 +1,9 @@
-form{
-    background-color: aqua;
-    color: brown;
-}
+$morado: #6f54a3;
+$rosa: #cb1b68;
+$hueso: #f9f3e5;
+@import "base";
+@import "mainindex";
+@import "sectionindex";
+@import "footer";
+@import "mainpinatas";
+@import "maincontacto"

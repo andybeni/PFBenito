@@ -1,0 +1,18 @@
+.mainpinatas{
+    display: flex;
+    flex-direction: row;
+    
+    .carousel{
+        margin: 30px;
+        width: 500px;
+        padding: 20px;
+        align-items: center;
+    }
+    .accordion{
+        width: 500px;
+        margin: 100px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 210px;
+    }
+}

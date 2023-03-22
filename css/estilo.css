@@ -1,3 +1,83 @@
-form {
-  background-color: aqua;
-  color: brown; }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #f9f3e5;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 50px; }
+
+.logo {
+  width: 100px; }
+
+.mainindex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 50px; }
+  .mainindex .txtinicio {
+    text-align: justify; }
+  .mainindex .imagencompra {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 50px;
+    border: solid;
+    border-radius: 10px;
+    background-color: #6f54a3;
+    color: aliceblue; }
+    .mainindex .imagencompra img {
+      width: 70px; }
+
+.cuadros .card {
+  background-color: #cb1b68;
+  text-align: center;
+  color: #f9f3e5;
+  margin: 20px;
+  padding: 10px;
+  height: auto;
+  justify-content: center; }
+  .cuadros .card .contecard {
+    justify-content: center; }
+    .cuadros .card .contecard .card-text {
+      text-align: center; }
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #6f54a3;
+  color: #f9f3e5;
+  width: 100%; }
+  .footer .pregunta {
+    color: #f9f3e5; }
+  .footer .pregunta:hover {
+    color: #cb1b68; }
+  .footer .redes {
+    width: 50px;
+    margin: 20px; }
+
+.mainpinatas {
+  display: flex;
+  flex-direction: row; }
+  .mainpinatas .carousel {
+    margin: 30px;
+    width: 500px;
+    padding: 20px;
+    align-items: center; }
+  .mainpinatas .accordion {
+    width: 500px;
+    margin: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 210px; }
+
+.maincontacto {
+  margin: 50px;
+  background-color: antiquewhite; }
+  .maincontacto form {
+    display: flex;
+    flex-direction: column; }
